@@ -13,7 +13,7 @@ const ContactSection = () => {
     
     // Create WhatsApp link with pre-filled message
     const whatsappMessage = `Hello FRD Studio! My name is ${name}. ${message} You can reach me at ${email}.`;
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/083823795561?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, '_blank');
   };
@@ -59,12 +59,12 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium mb-1">WhatsApp</h4>
                     <a 
-                      href="https://wa.me/1234567890" 
+                      href="https://wa.me/083823795561" 
                       className="text-gray-300 hover:text-neon-purple transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      +1 (234) 567-890
+                      +62 3823795561
                     </a>
                   </div>
                 </div>
@@ -76,10 +76,10 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium mb-1">Email</h4>
                     <a 
-                      href="mailto:hello@frdstudio.com" 
+                      href="mailto:Faridstudio@gmail.com" 
                       className="text-gray-300 hover:text-neon-purple transition-colors"
                     >
-                      hello@frdstudio.com
+                      Faridstudio@gmail.com
                     </a>
                   </div>
                 </div>

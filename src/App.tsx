@@ -13,6 +13,7 @@ import TimelineSection from './sections/TimelineSection';
 import TestimonialsSection from './sections/TestimonialsSection';
 import FaqSection from './sections/FaqSection';
 import ContactSection from './sections/ContactSection';
+import HeroSection from './sections/HeroSection';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -33,7 +34,8 @@ function App() {
           <>
             <Navbar />
             <Routes>
-              <Route path="/Hero" element={<HomePage />} />
+              <Route path="/" element={<HomePage />} />
+              <Route path="/hero" element={<HeroSection />} />
               <Route path="/About" element={<AboutSection />} />
               <Route path="/Services" element={<ServicesSection />} />
               <Route path="/Timeline" element={<TimelineSection />} />

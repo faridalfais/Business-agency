@@ -76,7 +76,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
           >
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/083823795561"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
@@ -85,7 +85,7 @@ const HeroSection = () => {
               Chat on WhatsApp
             </a>
             <a
-              href="mailto:hello@frdstudio.com"
+              href="mailto:Faridstudio@gmail.com"
               className="btn btn-outline"
             >
               <Mail size={20} />

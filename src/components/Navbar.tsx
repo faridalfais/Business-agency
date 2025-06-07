@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '/hero' },
+    { name: 'Home', href: '/' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Timeline', href: '#timeline' },
@@ -63,7 +63,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/083823795561"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"

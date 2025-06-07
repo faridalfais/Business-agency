@@ -7,6 +7,7 @@ import TestimonialsSection from '../sections/TestimonialsSection';
 import FaqSection from '../sections/FaqSection';
 import ContactSection from '../sections/ContactSection';
 
+
 const HomePage = () => {
   return (
     <main>
